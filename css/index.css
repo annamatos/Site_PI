@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+.geral{
+    border-bottom: 2px;
+}
+a, li{
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    background: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+
+
+}
+.header ul{
+    display: flex;
+}
+.header a{
+    color: black;
+    padding: .5rem 1rem;
+}
+.agora {
+    background: goldenrod;
+}

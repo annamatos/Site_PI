@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>cadastro</title>
+</head>
+
+<body>
+    <div class="caixa">
+    <div class="container">
+        <div class="lado-esquerda">
+            <p class="texto">Nome</p>
+            <input type="text" placeholder="Insira seu nome" id="input_nome">
+
+            <p class="texto">Sobrenome</p>
+            <input type="text" placeholder="Insira seu sobrenome" id="input_sobrenome">
+
+            <p class="texto">Gênero</p>
+            <input placeholder="Informe seu gênero" id="input_genero">
+
+            <p class="texto">Seu Estado</p>
+            <input type="text" placeholder="Estado" id="input_estado">
+
+            <p class="texto">Data de Nascimento</p>
+            <input type="date">
+
+
+        </div>
+        <div class="lado-direita">
+            <p class="texto">E-mail</p>
+            <input type="text" placeholder="E-mail" id="input_email">
+        
+
+            <p class="texto">Senha</p>
+            <input type="password" placeholder="***********" id="input_senha">
+          
+
+            <p class="texto">Confirme a senha</p>
+            <input type="password" placeholder="***********" id="input_confirmeSenha">
+           
+            <div class="form-centro">
+                <span class="conta">Já tem uma conta? <a href="login.html">Clique Aqui!</a></span>
+                <button class="botao" onclick="cadastrar()">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
+<script src="funcaoJS/cadastro.js"></script>
