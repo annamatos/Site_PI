@@ -5,24 +5,22 @@ body{
 .geral{
     width: 100vw;
     height: 100vh;
-    background: rosybrown;
+    background: #4E3E37;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .left-login{
-    width: 50vw;
+    width: 45vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.left-login >h1 {
-    color: aqua;
-}
+
 .right-login{
-    width: 50vw;
+    width: 55vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -81,4 +79,8 @@ body{
     font-weight: 800;
     color: brown;
     background: yellow;
+}
+.imagem {
+    width: 35vw;
+    height: 75vh;
 }

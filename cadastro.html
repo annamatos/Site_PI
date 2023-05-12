@@ -5,43 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/teste.css">
     <title>cadastro</title>
 </head>
 
 <body>
-    <div class="caixa">
-    <div class="container">
+    <div class="geral">
+
+    <div class="card">
+        <h1>Cadastrar</h1>
         <div class="lado-esquerda">
+            <div class="text">
             <p class="texto">Nome</p>
             <input type="text" placeholder="Insira seu nome" id="input_nome">
-
-            <p class="texto">Sobrenome</p>
-            <input type="text" placeholder="Insira seu sobrenome" id="input_sobrenome">
-
-            <p class="texto">Gênero</p>
-            <input placeholder="Informe seu gênero" id="input_genero">
-
+            </div>
+                        
+            <div class="text">
             <p class="texto">Seu Estado</p>
             <input type="text" placeholder="Estado" id="input_estado">
-
+            </div>
+      
+            <div class="text">
             <p class="texto">Data de Nascimento</p>
             <input type="date">
-
+            </div>
 
         </div>
         <div class="lado-direita">
-            <p class="texto">E-mail</p>
-            <input type="text" placeholder="E-mail" id="input_email">
-        
-
-            <p class="texto">Senha</p>
-            <input type="password" placeholder="***********" id="input_senha">
+            <div class="text">
+                <p class="texto">E-mail</p>
+                <input type="text" placeholder="E-mail" id="input_email">
+            </div>
+            
+            <div class="text">
+                <p class="texto">Senha</p>
+                <input type="password" placeholder="***********" id="input_senha">
+            </div>
+            
           
-
-            <p class="texto">Confirme a senha</p>
-            <input type="password" placeholder="***********" id="input_confirmeSenha">
-           
+            <div class="text">
+                <p class="texto">Confirme a senha</p>
+                <input type="password" placeholder="***********" id="input_confirmeSenha">
+                <div class="text">
+            </div>
+            </div>
             <div class="form-centro">
                 <span class="conta">Já tem uma conta? <a href="login.html">Clique Aqui!</a></span>
                 <button class="botao" onclick="cadastrar()">Cadastrar</button>
