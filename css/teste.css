@@ -1,3 +1,80 @@
-body{
+body {
     margin: 0;
+}
+
+.geral {
+    width: 100vw;
+    height: 100vh;
+    background: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 60vw;
+    height: 70vh;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    border-radius: 30px;
+}
+
+.lado-esquerdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 90%;
+}
+
+.lado-direito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 90%;
+}
+
+.form-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text>input {
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: whitesmoke;
+    color: brown;
+    font-size: 12pt;
+    box-shadow: 0px 10px 30px goldenrod;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text>span {
+    color: black;
+    margin-bottom: 5px;
+
+}
+
+.botao {
+    width: 30%;
+    height: 10%;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 800;
+    color: brown;
+    background: rgb(111, 0, 255);
 }

@@ -63,8 +63,8 @@ body{
     outline: none;
     box-sizing: border-box;
 }
-.text > span {
-    color: green;
+.text > p {
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -83,4 +83,5 @@ body{
 .imagem {
     width: 35vw;
     height: 75vh;
+    border-radius: 30px;
 }

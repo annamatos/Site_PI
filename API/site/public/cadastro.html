@@ -43,6 +43,18 @@
                         <input id="nome_input" type="text" placeholder="Seu nome">
                     </div>
                     <div class="campo">
+                        <span>Data de nascimento</span>
+                        <input id="dtNasc_input" type="date" placeholder="Data de nascimento">
+                    </div>
+                    <div class="campo">
+                        <span>Gênero</span>
+                        <input id="genero_input" type="text" placeholder="Informe seu gênero">
+                    </div>
+                    <div class="campo">
+                        <span>Quantidade de PETs</span>
+                        <input id="qntpet_input" type="number" placeholder="Quantidade de PETs">
+                    </div>
+                    <div class="campo">
                         <span>E-mail:</span>
                         <input id="email_input" type="text" placeholder="meuemail@provedor.com">
                     </div>
@@ -78,6 +90,9 @@
         //Recupere o valor da nova input pelo nome do id
         // Agora vá para o método fetch logo abaixo
         var nomeVar = nome_input.value;
+        var dtNascVar = dtNasc_input.value;
+        var generoVar = genero_input.value;
+        var qntpetVar = qntpet_input.value;
         var emailVar = email_input.value;
         var senhaVar = senha_input.value;
         var confirmacaoSenhaVar = confirmacao_senha_input.value;
@@ -103,6 +118,9 @@
                 // crie um atributo que recebe o valor recuperado aqui
                 // Agora vá para o arquivo routes/usuario.js
                 nomeServer: nomeVar,
+                dtNascServer: dtNascVar,
+                generoServer: generoVar,
+                qntpetServer: qntpetVar,
                 emailServer: emailVar,
                 senhaServer: senhaVar
             })
