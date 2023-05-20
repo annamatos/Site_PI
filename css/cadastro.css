@@ -1,86 +1,111 @@
-.caixa {
-    background: goldenrod;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-    justify-content: flex-end;
-    height: 450px;
-    width: 650px;
-    border: solid;
-
-}
-
-.container input {
-    padding: 5px;
-    width: 20vw;
-    border-radius: 6px;
-    border: 2px black solid;
-    font-size: 15px;
-    display: flex;
-}
-
-.container input:focus {
-    outline: none;
-    border-bottom: 2px solid goldenrod;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    gap: 2vh;
-}
-
-.lado-esquerda {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: 31vh;
-    width: 50%;
-}
-
-.lado-direita {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    top: 31vh;
-    width: 50%;
-}
-
-
-
-
-
-body{
+body {
     margin: 0;
-    
 }
-.geral{
-    background: red;
-width: 100%;
-height: 100%;
+
+.geral {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagens/website.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.text > input{
+
+.card {
+    width: 60vw;
+    height: 75vh;
+    background: rgba(0, 0, 0, 0.4);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+.titulo {
+    width: 45vw;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.campos {
+    width: 60vw;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lado-esquerdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+
+}
+
+.lado-direito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 90%;
+
+}
+
+.form-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+}
+
+.text>input {
     width: 100%;
+    height: 20px;
     border: none;
     border-radius: 10px;
     padding: 15px;
     background: whitesmoke;
-    color: brown;
+    color: black;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px goldenrod;
+    box-shadow: 0px 4px 4px rgb(186, 182, 170);
     outline: none;
     box-sizing: border-box;
 }
-.text > span {
+
+.text>p {
+    color: chartreuse;
+    margin-bottom: 5px;
+    font-weight: 800;
+
+}
+
+.botao {
+    width: 40%;
+    height: 10%;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 800;
     color: black;
-    margin-bottom: 10px;
-    
+    background: rgb(111, 0, 255);
+    margin-bottom: 0%;
+}
+
+.titulo>h1 {
+    color: pink;
+    font-size: 3.5em;
 }

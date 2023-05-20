@@ -5,58 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/teste.css">
-    <title>cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
 </head>
 
 <body>
     <div class="geral">
         <div class="card">
-            <div class="lado-esquerdo">
-                <span>  <h1>Cadastrar</h1></span>
-                <div class="text">
-                    <p class="texto">Nome</p>
-                    <input type="text" placeholder="Insira seu nome" id="input_nome">
-                </div>
-
-                <div class="text">
-                    <p class="texto">Seu Estado</p>
-                    <input type="text" placeholder="Estado" id="input_estado">
-                </div>
-
-                <div class="text">
-                    <p class="texto">Quantos pets você tem?</p>
-                    <input type="number" placeholder="Quantidade de pets" id="input_qntpets">
-                </div>
-
-                <div class="text">
-                    <p class="texto">Data de Nascimento</p>
-                    <input type="date">
-                </div>
-
+            <div class="titulo">
+                <h1>Cadastrar</h1>
             </div>
-            <div class="lado-direito">
-                 
-                <div class="text">
-                    <p class="texto">E-mail</p>
-                    <input type="text" placeholder="E-mail" id="input_email">
-                </div>
-
-                <div class="text">
-                    <p class="texto">Senha</p>
-                    <input type="password" placeholder="***********" id="input_senha">
-                </div>
-
-
-                <div class="text">
-                    <p class="texto">Confirme a senha</p>
-                    <input type="password" placeholder="***********" id="input_confirmeSenha">
+            <div class="campos">
+                <div class="lado-esquerdo">
                     <div class="text">
+                        <p class="texto">Nome</p>
+                        <input type="text" placeholder="Insira seu nome" id="input_nome">
+                    </div>
+                    <div class="text">
+                        <p class="texto">Seu Estado</p>
+                        <input type="text" placeholder="Estado" id="input_estado">
+                    </div>
+                    <div class="text">
+                        <p class="texto">Quantos pets você tem?</p>
+                        <input type="number" placeholder="Quantidade de pets" id="input_qntpets">
+                    </div>
+                    <div class="text">
+                        <p class="texto">Data de Nascimento</p>
+                        <input type="date">
                     </div>
                 </div>
-                <button class="botao" onclick="cadastrar()">Cadastrar</button>
-                <div class="form-centro">
-                    Já tem uma conta? <a href="login.html">Clique Aqui!</a>
+                <div class="lado-direito">
+                    <div class="text">
+                        <p class="texto">E-mail</p>
+                        <input type="text" placeholder="E-mail" id="input_email">
+                    </div>
+                    <div class="text">
+                        <p class="texto">Senha</p>
+                        <input type="password" placeholder="***********" id="input_senha">
+                    </div>
+                    <div class="text">
+                        <p class="texto">Confirme a senha</p>
+                        <input type="password" placeholder="***********" id="input_confirmeSenha">
+                        <div class="text">
+                        </div>
+                    </div>
+                    <button class="botao" onclick="cadastrar()">Cadastrar</button>
+                    <div class="form-centro">
+                        Já tem uma conta? <a href="login.html"> Clique Aqui!</a>
+                    </div>
                 </div>
             </div>
         </div>
